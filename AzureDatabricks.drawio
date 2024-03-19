@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T09:05:15.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="9WAWUyLmHAU-Dw8g7nhV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T09:28:29.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="J1qwWDYrdZvtZf8dNN46" version="24.0.7" type="github">
   <diagram name="Page-1" id="-30sCfPsmppc0BMjghwY">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M8swvnn7pD_xqeLs7V60-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-3" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220.45" width="24" height="33.099999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-5" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="413" y="220.45" width="24" height="29.099999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-6" value="Raw ingestion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222" y="259.1" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-7" value="Filtered and clean" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="259.1" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-8" value="Business level for reports" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392" y="259.1" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M8swvnn7pD_xqeLs7V60-3" target="M8swvnn7pD_xqeLs7V60-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.142;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M8swvnn7pD_xqeLs7V60-4" target="M8swvnn7pD_xqeLs7V60-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-21" value="BI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-22" value="ML" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-23" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="559" y="92" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-24" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Machine_Learning_Service_Workspaces.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="280" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-25" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="191.55" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M8swvnn7pD_xqeLs7V60-25" target="M8swvnn7pD_xqeLs7V60-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8swvnn7pD_xqeLs7V60-27" value="Data Ingestion&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="240.00000000000003" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
